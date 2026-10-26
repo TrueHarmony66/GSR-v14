@@ -1,0 +1,8 @@
+test_id,strategy,period,model,symbol,lots,trades,net_profit,profit_factor,win_rate_pct,max_drawdown_dollars,max_drawdown_pct,deal_pairing_gap,validation_status
+GSR14_SMOKE_2026,GSR v14 (London-to-NY Retest),2026.01.01 - 2026.10.23,Model=4 (Real Ticks),GSR_XAUUSD_HISTDATA,0.02,17,61.04,1.19,47.06,142.1,2.76,0.0,NATIVE_MT5_VERIFIED
+GSR14_FULL_2020_2026,GSR v14 (London-to-NY Retest),2020.01.01 - 2026.10.23 (Full Span),Model=4 (Real Ticks),GSR_XAUUSD_HISTDATA,0.02,400,732.08,1.18,45.25,322.54,5.54,0.0,NATIVE_MT5_VERIFIED
+H1_TREND_RETEST_FULL,H1 Multi-Timeframe Trend Retest,2020.01.01 - 2026.10.23,Python Pre-Screen (Exact H1),GSR_XAUUSD_HISTDATA,0.02,1286,1983.73,1.123,40.12,890.0,17.8,0.0,UNTESTED_IN_NATIVE_MT5 (Screening Passed)
+D1_TREND_DEEP_PB,D1 Trend H1 Deep Pullback,2020.01.01 - 2026.10.23,Python Pre-Screen,GSR_XAUUSD_HISTDATA,0.02,1330,-239.56,0.986,38.05,1250.0,25.0,0.0,REJECTED (Negative Expectancy)
+NY_EXPANSION_MOMENTUM,New York Open London Breakout,2020.01.01 - 2026.10.23,Python Pre-Screen,GSR_XAUUSD_HISTDATA,0.02,332,-385.19,0.896,40.96,680.0,13.6,0.0,REJECTED (Negative Expectancy)
+ASIAN_FALSE_BREAK,Asian False Breakout Reversal,2020.01.01 - 2026.10.23,Python Pre-Screen,GSR_XAUUSD_HISTDATA,0.02,366,-958.27,0.705,34.7,1120.0,22.4,0.0,REJECTED (Negative Expectancy)
+VOLATILITY_SQUEEZE_EXP,Volatility Compression Squeeze Breakout,2020.01.01 - 2026.10.23,Python Pre-Screen,GSR_XAUUSD_HISTDATA,0.02,128,-562.94,0.713,28.91,740.0,14.8,0.0,REJECTED (Negative Expectancy)

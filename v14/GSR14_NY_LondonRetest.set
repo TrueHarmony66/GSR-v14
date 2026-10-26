@@ -1,0 +1,13 @@
+InpLots=0.02
+InpMagicNumber=140001
+InpTradeHour=13
+InpLondonStartHour=7
+InpLondonEndHour=11
+InpPreNYHour=12
+InpMinLondonRange=8.0
+InpMaxLondonRange=32.0
+InpTargetR=2.0
+InpMaxBarsHold=12
+InpMaxSpreadPoints=80
+InpCloseFriday=true
+InpCloseFridayHour=20

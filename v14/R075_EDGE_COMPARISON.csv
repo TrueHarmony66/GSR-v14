@@ -1,0 +1,5 @@
+system,trades,freq_per_mo,net_profit_002,pf,expectancy_trade_002,avg_net_r,max_dd_002,monthly_net_008,status
+GSR v13.A (Impulse),361,4.40,600.56,1.119,1.66,0.0270,926.85,29.30,Validated (MT5 Real-Tick)
+GSR v13.B (London Breakout),345,4.21,626.51,1.199,1.82,0.0380,401.33,30.56,Validated (MT5 Real-Tick)
+GSR v14 (London-NY Retest),400,4.88,732.08,1.180,1.83,0.0890,322.54,35.71,Validated (MT5 Real-Tick)
+Combined Portfolio (A + B + v14),1106,13.49,1959.15,1.162,1.77,0.0510,742.10,95.57,Tri-Strategy Suite (All MT5 Verified)
