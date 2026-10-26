@@ -1,0 +1,13 @@
+sequenceDiagram
+    participant T as Tester / market
+    participant E as GSR v14
+    participant B as Broker execution
+    T->>E: New H1 bar
+    E->>E: Apply Friday, timeout, position and spread guards
+    E->>E: Evaluate London range and 12:00 midpoint retest
+    E->>B: Market Buy/Sell with SL and TP
+    B-->>E: Fill / order result
+    T->>B: Bid/Ask ticks
+    B-->>E: Stop, target, timeout or Friday close
+    E->>B: Close request when time/risk guard fires
+    B-->>E: Exit deal and native costs

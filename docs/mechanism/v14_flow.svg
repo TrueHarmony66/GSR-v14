@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620">
+<style>text{font-family:Arial,sans-serif;fill:#172033}.box{fill:#eef4ff;stroke:#3465a4;stroke-width:2}.guard{fill:#fff5df;stroke:#c58a18;stroke-width:2}.trade{fill:#e7f7ec;stroke:#25834a;stroke-width:2}.stop{fill:#f7e8e8;stroke:#aa3b3b;stroke-width:2}.arrow{stroke:#53657d;stroke-width:2;fill:none;marker-end:url(#a)}.small{font-size:15px}.title{font-size:25px;font-weight:bold}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#53657d"/></marker></defs>
+<text x="40" y="38" class="title">GSR v14 — London → New York midpoint retest</text>
+<rect x="40" y="70" width="210" height="62" rx="10" class="box"/><text x="145" y="98" text-anchor="middle">New H1 bar</text><text x="145" y="119" text-anchor="middle" class="small">run once</text>
+<rect x="300" y="70" width="220" height="62" rx="10" class="guard"/><text x="410" y="98" text-anchor="middle">Friday / timeout</text><text x="410" y="119" text-anchor="middle" class="small">flatten or age out</text>
+<rect x="570" y="70" width="220" height="62" rx="10" class="guard"/><text x="680" y="98" text-anchor="middle">Position + spread guards</text><text x="680" y="119" text-anchor="middle" class="small">one position; ≤80 points</text>
+<rect x="840" y="70" width="220" height="62" rx="10" class="box"/><text x="950" y="98" text-anchor="middle">13:00 evaluation</text><text x="950" y="119" text-anchor="middle" class="small">live Bid / Ask</text>
+<path d="M250 101 H300 M520 101 H570 M790 101 H840" class="arrow"/>
+<rect x="180" y="230" width="260" height="76" rx="10" class="box"/><text x="310" y="260" text-anchor="middle">London range</text><text x="310" y="284" text-anchor="middle" class="small">07:00–11:00; $8–$32</text>
+<rect x="660" y="230" width="260" height="76" rx="10" class="box"/><text x="790" y="260" text-anchor="middle">12:00 midpoint retest</text><text x="790" y="284" text-anchor="middle" class="small">close holds trend side</text>
+<path d="M950 132 V185 H310 V230 M440 268 H660" class="arrow"/>
+<rect x="150" y="400" width="300" height="80" rx="10" class="trade"/><text x="300" y="431" text-anchor="middle">BUY continuation</text><text x="300" y="456" text-anchor="middle" class="small">Ask; SL below low; TP 2R</text>
+<rect x="650" y="400" width="300" height="80" rx="10" class="trade"/><text x="800" y="431" text-anchor="middle">SELL continuation</text><text x="800" y="456" text-anchor="middle" class="small">Bid; SL above high; TP 2R</text>
+<path d="M790 306 V350 H300 V400 M790 306 V350 H800 V400" class="arrow"/>
+<rect x="390" y="535" width="320" height="48" rx="10" class="stop"/><text x="550" y="565" text-anchor="middle">No qualifying setup → no trade</text>
+</svg>

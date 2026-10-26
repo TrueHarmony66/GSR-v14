@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="360" viewBox="0 0 1100 360">
+<style>text{font-family:Arial,sans-serif;fill:#172033}.box{fill:#eef4ff;stroke:#3465a4;stroke-width:2}.trade{fill:#e7f7ec;stroke:#25834a;stroke-width:2}.arrow{stroke:#53657d;stroke-width:2;fill:none;marker-end:url(#a)}.title{font-size:25px;font-weight:bold}.small{font-size:14px}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#53657d"/></marker></defs>
+<text x="35" y="35" class="title">GSR v14 — system architecture</text>
+<rect x="30" y="120" width="170" height="70" rx="10" class="box"/><text x="115" y="150" text-anchor="middle">London H1 bars</text><text x="115" y="172" text-anchor="middle" class="small">07:00–11:00</text>
+<rect x="245" y="120" width="180" height="70" rx="10" class="box"/><text x="335" y="150" text-anchor="middle">Range detector</text><text x="335" y="172" text-anchor="middle" class="small">$8–$32</text>
+<rect x="470" y="120" width="180" height="70" rx="10" class="box"/><text x="560" y="150" text-anchor="middle">Midpoint retest</text><text x="560" y="172" text-anchor="middle" class="small">12:00 close</text>
+<rect x="695" y="120" width="180" height="70" rx="10" class="trade"/><text x="785" y="150" text-anchor="middle">13:00 entry</text><text x="785" y="172" text-anchor="middle" class="small">Bid / Ask</text>
+<rect x="920" y="120" width="150" height="70" rx="10" class="trade"/><text x="995" y="150" text-anchor="middle">Exit ledger</text><text x="995" y="172" text-anchor="middle" class="small">native costs</text>
+<path d="M200 155 H245 M425 155 H470 M650 155 H695 M875 155 H920" class="arrow"/>
+<path d="M785 190 V270 H995 V190" class="arrow"/>
+<text x="800" y="292" class="small">SL • TP • timeout • Friday flatten</text>
+</svg>

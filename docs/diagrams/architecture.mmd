@@ -1,0 +1,13 @@
+flowchart LR
+    R[London H1 bars] --> D[Range detector]
+    D --> Q{8–32 dollar range}
+    Q --> M[Midpoint + close location]
+    M --> P[12:00 pullback test]
+    P --> G[13:00 gates]
+    G --> X[Native market execution]
+    X --> S[Structural SL]
+    X --> T[2R target]
+    X --> U[12-bar / Friday exit]
+    S --> L[Native MT5 ledger]
+    T --> L
+    U --> L

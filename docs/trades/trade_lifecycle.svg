@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="420" viewBox="0 0 1050 420">
+<style>text{font-family:Arial,sans-serif;fill:#172033}.lane{stroke:#8593a8;stroke-width:2}.event{fill:#eef4ff;stroke:#3465a4;stroke-width:2}.cost{fill:#fff5df;stroke:#c58a18;stroke-width:2}.arrow{stroke:#53657d;stroke-width:2;fill:none;marker-end:url(#a)}.title{font-size:25px;font-weight:bold}.small{font-size:14px}</style>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#53657d"/></marker></defs>
+<text x="35" y="35" class="title">GSR v14 — native trade lifecycle</text>
+<text x="80" y="85">Tester / ticks</text><text x="390" y="85">EA decision engine</text><text x="760" y="85">Broker / tester execution</text>
+<path d="M160 95 V370 M520 95 V370 M900 95 V370" class="lane"/>
+<rect x="40" y="125" width="220" height="55" rx="8" class="event"/><text x="150" y="158" text-anchor="middle">New H1 bar</text>
+<path d="M260 152 H390" class="arrow"/>
+<rect x="390" y="125" width="260" height="55" rx="8" class="event"/><text x="520" y="158" text-anchor="middle">Guards + setup test</text>
+<path d="M650 152 H900" class="arrow"/>
+<rect x="760" y="205" width="280" height="55" rx="8" class="event"/><text x="900" y="238" text-anchor="middle">Market order + SL/TP</text>
+<path d="M900 260 V300 H520" class="arrow"/>
+<rect x="390" y="300" width="260" height="55" rx="8" class="cost"/><text x="520" y="333" text-anchor="middle">Native exit + costs</text>
+<path d="M390 327 H160 V205" class="arrow"/>
+<text x="170" y="395" class="small">stop • target • timeout • Friday flatten</text>
+</svg>

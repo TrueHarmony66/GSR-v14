@@ -1,0 +1,21 @@
+flowchart TD
+    A[New H1 bar] --> B{Friday >= 20:00?}
+    B -- yes --> C[Close magic 140001 positions]
+    B -- no --> D[Timeout existing position at 12 bars]
+    C --> E[Stop]
+    D --> F{Position already open?}
+    F -- yes --> E
+    F -- no --> G{Spread <= 80 points?}
+    G -- no --> E
+    G -- yes --> H{Hour = 13:00?}
+    H -- no --> E
+    H -- yes --> I[Build London range 07:00-11:00]
+    I --> J{Range 8 to 32 dollars?}
+    J -- no --> E
+    J -- yes --> K[Compute midpoint and inspect 12:00 bar]
+    K --> L{Bullish continuation conditions?}
+    K --> M{Bearish continuation conditions?}
+    L -- yes --> N[Buy Ask; SL below London low; TP 2R]
+    M -- yes --> O[Sell Bid; SL above London high; TP 2R]
+    L -- no --> E
+    M -- no --> E
